@@ -1,0 +1,92 @@
+<!doctype html>
+<html>
+<head>
+<title>index.html</title>
+
+<meta charset="utf-8">
+
+<script>
+
+	var XMLHttpReq;
+	//创建XMLHttpRequest对象         
+	function createXMLHttpRequest() {
+		if (window.XMLHttpRequest) { //Mozilla 浏览器  
+			XMLHttpReq = new XMLHttpRequest();
+		} else if (window.ActiveXObject) { // IE浏览器  
+			try {
+				XMLHttpReq = new ActiveXObject("Msxml2.XMLHTTP");
+			} catch (e) {
+				try {
+					XMLHttpReq = new ActiveXObject("Microsoft.XMLHTTP");
+				} catch (e) {}
+			}
+		}
+	}
+	//发送请求函数  
+	function sendRequest() {
+		createXMLHttpRequest();
+		var url = "context.jsp";
+		XMLHttpReq.open("GET", url, true);
+		XMLHttpReq.onreadystatechange = processResponse; //指定响应函数  
+		XMLHttpReq.send(null); // 发送请求  
+	}
+	// 处理返回信息函数  
+	function processResponse() {
+		if (XMLHttpReq.readyState == 4) { // 判断对象状态  
+			if (XMLHttpReq.status == 200) { // 信息已经成功返回，开始处理信息  
+				DisplayHot();
+				setTimeout("sendRequest()", 1000);
+			} else { //页面不正常  
+				window.alert("您所请求的页面有异常。");
+			}
+		}
+	}
+	function DisplayHot() {
+		var Temperature = XMLHttpReq.responseXML.getElementsByTagName("Temperature")[0].firstChild.nodeValue;
+		var Humidity = XMLHttpReq.responseXML.getElementsByTagName("Humidity")[0].firstChild.nodeValue;
+		var Dust = XMLHttpReq.responseXML.getElementsByTagName("Dust")[0].firstChild.nodeValue;
+		var Time = XMLHttpReq.responseXML.getElementsByTagName("Time")[0].firstChild.nodeValue;
+		document.getElementById("Temperature").innerHTML = Temperature;
+		document.getElementById("Humidity").innerHTML = Humidity;
+		document.getElementById("Dust").innerHTML = Dust;
+		document.getElementById("Time").innerHTML = Time;
+	//window.alert(Temperature);
+	}
+</script>
+
+<style>
+body {
+	background-color: #EEE8AA;
+	margin-top: 5%;
+	margin-left: 38%;
+}
+
+p {
+	font-family: consolas;
+	font-size: 28px;
+}
+
+b {
+	color: #EE0000;
+}
+</style>
+
+</head>
+
+<body onload=sendRequest()>
+	<h1>D栋传感器实时数据</h1>
+	<p>
+		温度: <b id="Temperature"></b><b style="font-size: 22px;">&nbsp;&#8451;</b>
+	</p>
+	<p>
+		湿度: <b id="Humidity"></b><b>&nbsp;&#37;</b>
+	</p>
+	<p>
+		PM2.5: <b id="Dust"></b><b>&nbsp;ug/m³</b>
+	</p>
+	<p>
+		采样时间: <b id="Time"></b>
+	</p>
+
+</body>
+</html>
