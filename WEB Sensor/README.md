@@ -1,0 +1,1 @@
+WEB服务器为tomcat，连接的数据库为mysql
