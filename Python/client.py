@@ -28,7 +28,7 @@ while True:
 
 udpClient = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 
-HOST = '101.132.131.230'
+HOST = '1**.1**.1**.2**'
 PORT = 6666
 ADDR = (HOST, PORT)
 
