@@ -1,0 +1,1 @@
+通过使用supervisor实现Python脚本开机自启动，云端管理进程。
