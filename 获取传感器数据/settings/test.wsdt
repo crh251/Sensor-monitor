@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<Workspace>
+  <ConfigDictionary>
+    
+  <CurrentConfigs><Project>test/Debug</Project></CurrentConfigs></ConfigDictionary>
+  <Desktop>
+    <Static>
+      <Workspace>
+        <ColumnWidths>
+          
+          
+          
+          
+        <Column0>597</Column0><Column1>27</Column1><Column2>27</Column2><Column3>0</Column3></ColumnWidths>
+      </Workspace>
+      <Build>
+        
+        
+        
+        
+      <ColumnWidth0>18</ColumnWidth0><ColumnWidth1>837</ColumnWidth1><ColumnWidth2>223</ColumnWidth2><ColumnWidth3>55</ColumnWidth3></Build>
+      <TerminalIO/>
+    <Debug-Log><ColumnWidth0>21</ColumnWidth0><ColumnWidth1>1496</ColumnWidth1></Debug-Log><Disassembly><MixedMode>1</MixedMode><CodeCovShow>1</CodeCovShow><InstrProfShow>1</InstrProfShow></Disassembly></Static>
+    <Windows>
+      
+      
+    <Wnd1>
+        <Tabs>
+          <Tab>
+            <Identity>TabID-29585-255</Identity>
+            <TabName>Workspace</TabName>
+            <Factory>Workspace</Factory>
+            <Session>
+              
+            <NodeDict><ExpandedNode>test</ExpandedNode><ExpandedNode>test/DHT11.C</ExpandedNode><ExpandedNode>test/DHT11.C/Output</ExpandedNode><ExpandedNode>test/DHT11.c</ExpandedNode><ExpandedNode>test/DHT11.c/Output</ExpandedNode><ExpandedNode>test/Output</ExpandedNode><ExpandedNode>test/adc.c</ExpandedNode><ExpandedNode>test/adc.c/Output</ExpandedNode><ExpandedNode>test/main.c</ExpandedNode><ExpandedNode>test/main.c/Output</ExpandedNode><ExpandedNode>test/sensor.c</ExpandedNode><ExpandedNode>test/uart.c</ExpandedNode></NodeDict></Session>
+          </Tab>
+        </Tabs>
+        
+      <SelectedTab>0</SelectedTab></Wnd1><Wnd3>
+        <Tabs>
+          <Tab>
+            <Identity>TabID-31801-1032</Identity>
+            <TabName>Build</TabName>
+            <Factory>Build</Factory>
+            <Session/>
+          </Tab>
+        <Tab><Identity>TabID-21141-12786</Identity><TabName>Debug Log</TabName><Factory>Debug-Log</Factory><Session/></Tab></Tabs>
+        
+      <SelectedTab>0</SelectedTab></Wnd3></Windows>
+    <Editor>
+      
+      
+      
+      
+    <Pane><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\main.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>405</SelStart><SelEnd>405</SelEnd></Tab><ActiveTab>0</ActiveTab></Pane><ActivePane>0</ActivePane><Sizes><Pane><X>1000000</X><Y>1000000</Y></Pane></Sizes><SplitMode>1</SplitMode></Editor>
+    <Positions>
+      
+      
+      
+      
+      
+    <Top><Row0><Sizes><Toolbar-06d60dc8><key>iaridepm.enu1</key></Toolbar-06d60dc8></Sizes></Row0></Top><Left><Row0><Sizes><Wnd1><Rect><Top>-2</Top><Left>-2</Left><Bottom>807</Bottom><Right>671</Right><x>-2</x><y>-2</y><xscreen>165</xscreen><yscreen>362</yscreen><sizeHorzCX>85938</sizeHorzCX><sizeHorzCY>363089</sizeHorzCY><sizeVertCX>350521</sizeVertCX><sizeVertCY>811434</sizeVertCY></Rect></Wnd1></Sizes></Row0></Left><Right><Row0><Sizes/></Row0></Right><Bottom><Row0><Sizes><Wnd3><Rect><Top>-2</Top><Left>-2</Left><Bottom>145</Bottom><Right>1922</Right><x>-2</x><y>-2</y><xscreen>1924</xscreen><yscreen>147</yscreen><sizeHorzCX>1002083</sizeHorzCX><sizeHorzCY>147442</sizeHorzCY><sizeVertCX>85938</sizeVertCX><sizeVertCY>363089</sizeVertCY></Rect></Wnd3></Sizes></Row0></Bottom><Float><Sizes/></Float></Positions>
+  </Desktop>
+</Workspace>
+
+

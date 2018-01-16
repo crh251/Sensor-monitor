@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<Project>
+  <Desktop>
+    <Static>
+      <Debug-Log>
+        
+        
+      <ColumnWidth0>20</ColumnWidth0><ColumnWidth1>1307</ColumnWidth1></Debug-Log>
+      <Build>
+        <ColumnWidth0>20</ColumnWidth0>
+        <ColumnWidth1>980</ColumnWidth1>
+        <ColumnWidth2>261</ColumnWidth2>
+        <ColumnWidth3>65</ColumnWidth3>
+      </Build>
+      <Workspace>
+        <ColumnWidths>
+          
+          
+          
+          
+        <Column0>76</Column0><Column1>27</Column1><Column2>27</Column2><Column3>27</Column3></ColumnWidths>
+      </Workspace>
+      <Disassembly>
+        
+        
+        
+      <PreferedWindows><Position>0</Position><ScreenPosX>0</ScreenPosX><ScreenPosY>0</ScreenPosY><Windows/></PreferedWindows><MixedMode>1</MixedMode><CodeCovShow>1</CodeCovShow><InstrProfShow>1</InstrProfShow></Disassembly>
+    <Watch><Format><struct_types/><watch_formats/></Format><PreferedWindows><Position>2</Position><ScreenPosX>0</ScreenPosX><ScreenPosY>0</ScreenPosY><Windows/></PreferedWindows><Column0>175</Column0><Column1>94</Column1><Column2>100</Column2><Column3>100</Column3></Watch></Static>
+    <Windows>
+      
+      
+      
+    <Wnd4>
+        <Tabs>
+          <Tab>
+            <Identity>TabID-21368-8187</Identity>
+            <TabName>Debug Log</TabName>
+            <Factory>Debug-Log</Factory>
+            <Session/>
+          </Tab>
+          <Tab>
+            <Identity>TabID-20845-8197</Identity>
+            <TabName>Build</TabName>
+            <Factory>Build</Factory>
+            <Session/>
+          </Tab>
+        </Tabs>
+        
+      <SelectedTab>0</SelectedTab></Wnd4><Wnd5>
+        <Tabs>
+          <Tab>
+            <Identity>TabID-32116-8191</Identity>
+            <TabName>Workspace</TabName>
+            <Factory>Workspace</Factory>
+            <Session>
+              
+            <NodeDict><ExpandedNode>test</ExpandedNode><ExpandedNode>test/DHT11.c</ExpandedNode><ExpandedNode>test/adc.c</ExpandedNode><ExpandedNode>test/main.c</ExpandedNode><ExpandedNode>test/sensor.c</ExpandedNode><ExpandedNode>test/uart.c</ExpandedNode></NodeDict></Session>
+          </Tab>
+        </Tabs>
+        
+      <SelectedTab>0</SelectedTab></Wnd5><Wnd6><Tabs><Tab><Identity>TabID-15769-19832</Identity><TabName>Watch</TabName><Factory>Watch</Factory><Session><Expressions><Expression><Expression>ucharT_data_H_temp</Expression></Expression><Expression><Expression>ucharT_data_L_temp</Expression></Expression><Expression><Expression>ucharRH_data_H_temp</Expression></Expression><Expression><Expression>ucharRH_data_L_temp</Expression></Expression><Expression><Expression>ucharcheckdata_temp</Expression></Expression><Expression><Expression>uchartemp</Expression></Expression></Expressions><TabId>0</TabId><Column0>175</Column0><Column1>94</Column1><Column2>100</Column2><Column3>100</Column3></Session></Tab></Tabs><SelectedTab>0</SelectedTab></Wnd6><Wnd7><Tabs><Tab><Identity>TabID-21922-12432</Identity><TabName>Disassembly</TabName><Factory>Disassembly</Factory><Session/></Tab></Tabs><SelectedTab>0</SelectedTab></Wnd7></Windows>
+    <Editor>
+      
+      
+      
+      
+    <Pane><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\adc.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>1341</SelStart><SelEnd>1341</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\main.c</Filename><XPos>0</XPos><YPos>8</YPos><SelStart>411</SelStart><SelEnd>411</SelEnd></Tab><ActiveTab>1</ActiveTab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\uart.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>712</SelStart><SelEnd>712</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\sensor.h</Filename><XPos>0</XPos><YPos>69</YPos><SelStart>247</SelStart><SelEnd>247</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\public.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>5917</SelStart><SelEnd>5917</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\DHT11.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>120</SelStart><SelEnd>120</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\sensor.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>817</SelStart><SelEnd>817</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\DHT11.c</Filename><XPos>0</XPos><YPos>55</YPos><SelStart>2196</SelStart><SelEnd>2196</SelEnd></Tab></Pane><ActivePane>0</ActivePane><Sizes><Pane><X>1000000</X><Y>1000000</Y></Pane></Sizes><SplitMode>1</SplitMode></Editor>
+    <Positions>
+      
+      
+      
+      
+      
+    <Top><Row0><Sizes><Toolbar-06c70dc8><key>iaridepm.enu1</key></Toolbar-06c70dc8></Sizes></Row0><Row1><Sizes><Toolbar-1348fbf0><key>debuggergui.enu1</key></Toolbar-1348fbf0></Sizes></Row1><Row2><Sizes><Wnd7><Rect><Top>46</Top><Left>-2</Left><Bottom>246</Bottom><Right>1922</Right><x>-2</x><y>46</y><xscreen>1924</xscreen><yscreen>200</yscreen><sizeHorzCX>1002083</sizeHorzCX><sizeHorzCY>200602</sizeHorzCY><sizeVertCX>104167</sizeVertCX><sizeVertCY>200602</sizeVertCY></Rect></Wnd7></Sizes></Row2></Top><Left><Row0><Sizes><Wnd5><Rect><Top>-2</Top><Left>-2</Left><Bottom>559</Bottom><Right>167</Right><x>-2</x><y>-2</y><xscreen>169</xscreen><yscreen>173</yscreen><sizeHorzCX>88021</sizeHorzCX><sizeHorzCY>173521</sizeHorzCY><sizeVertCX>88021</sizeVertCX><sizeVertCY>562688</sizeVertCY></Rect></Wnd5></Sizes></Row0></Left><Right><Row0><Sizes><Wnd6><Rect><Top>-2</Top><Left>-2</Left><Bottom>559</Bottom><Right>278</Right><x>-2</x><y>-2</y><xscreen>147</xscreen><yscreen>119</yscreen><sizeHorzCX>76563</sizeHorzCX><sizeHorzCY>119358</sizeHorzCY><sizeVertCX>145833</sizeVertCX><sizeVertCY>562688</sizeVertCY></Rect></Wnd6></Sizes></Row0></Right><Bottom><Row0><Sizes><Wnd4><Rect><Top>-2</Top><Left>-2</Left><Bottom>171</Bottom><Right>1922</Right><x>-2</x><y>-2</y><xscreen>1924</xscreen><yscreen>173</yscreen><sizeHorzCX>1002083</sizeHorzCX><sizeHorzCY>173521</sizeHorzCY><sizeVertCX>88021</sizeVertCX><sizeVertCY>173521</sizeVertCY></Rect></Wnd4></Sizes></Row0></Bottom><Float><Sizes/></Float></Positions>
+  </Desktop>
+</Project>
+
+
